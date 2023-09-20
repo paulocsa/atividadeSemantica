@@ -8,7 +8,7 @@
 
 
 nav {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height:  auto;
     position: absolute;
@@ -30,10 +30,12 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: rgb(149, 0, 255);
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .section1 img {
@@ -55,7 +57,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     width: auto;
-    background-color: rgb(0, 255, 47);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     min-height: 50vh; 
     
@@ -80,6 +82,7 @@ nav ul li a {
 
 .content article {
     flex: 1;
+    color: blueviolet;
 }
 
 
@@ -108,7 +111,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(55, 0, 84);
     padding: 20px; /* Adicionei um preenchimento para melhor aparência em telas menores */
     max-width: 100%; /* Ou defina um valor máximo desejado, por exemplo, max-width: 800px; */
     flex-wrap: wrap; /* Controla a quebra de linha dos elementos */
@@ -152,7 +155,7 @@ nav ul li a {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: rgb(72, 0, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .section4 article {
@@ -164,6 +167,7 @@ nav ul li a {
     font-size: 24px;
     margin-bottom: 10px;
     float: left;
+    color: rgb(255, 255, 255);
 }
 
 .section4 p {
@@ -171,4 +175,5 @@ nav ul li a {
     line-height: 1.5;
     float: left;
     text-align: justify;
+    color: blueviolet;
 }
